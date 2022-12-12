@@ -1,6 +1,7 @@
 const operation = prompt('Enter operation type (+, -, /, *)');
 const a = +prompt('first number');
 const b = +prompt('second number');
+let result = '';
 switch (operation) {
     case '+': result = `${a} + ${b} = ${a + b}`;
         
